@@ -14,6 +14,8 @@
 @property (nonatomic, strong) NSMutableArray *operandStack;
 @end
 
+// Added some information while in the 'Arshish' branch.  Think I will now upload to the server and request a merge to master
+
 // Implementation
 @implementation CalculatorBrain
 @synthesize operandStack = _operandStack;

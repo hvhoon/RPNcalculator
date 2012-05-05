@@ -9,16 +9,10 @@
 #import "CalculatorBrain.h"
 #import "math.h"
 
-// Now I'm adding a third line to calculator brain which no one has ever seen before! - Arshish
-
-// These are my local commits to Calculatorbrain - Harish
-
 // Private properties
 @interface CalculatorBrain()
 @property (nonatomic, strong) NSMutableArray *operandStack;
 @end
-
-// Added some information while in the 'Arshish' branch.  Think I will now upload to the server and request a merge to master
 
 // Implementation
 @implementation CalculatorBrain

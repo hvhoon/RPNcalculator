@@ -16,8 +16,8 @@
 		6814B8EC14AC9A6A00EE1BF7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6814B8EA14AC9A6A00EE1BF7 /* MainStoryboard.storyboard */; };
 		6814B8EF14AC9A6A00EE1BF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6814B8EE14AC9A6A00EE1BF7 /* ViewController.m */; };
 		6814B8F714BB106200EE1BF7 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6814B8F614BB106200EE1BF7 /* CalculatorBrain.m */; };
-		68EF7D8E154A847F00945F4B /* calc_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EF7D8D154A847F00945F4B /* calc_2x.png */; };
-		68EF7D90154A84AB00945F4B /* calc_1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EF7D8F154A84AB00945F4B /* calc_1x.png */; };
+		688651441555C95E00C29C7B /* calc_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 688651431555C95E00C29C7B /* calc_icon.png */; };
+		688651461555C96200C29C7B /* calc_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 688651451555C96200C29C7B /* calc_icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +37,8 @@
 		6814B8F514BB106200EE1BF7 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
 		6814B8F614BB106200EE1BF7 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 		68429CC515429412004FDE79 /* RPNCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RPNCalculator.entitlements; sourceTree = "<group>"; };
-		68EF7D8D154A847F00945F4B /* calc_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calc_2x.png; sourceTree = "<group>"; };
-		68EF7D8F154A84AB00945F4B /* calc_1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calc_1x.png; sourceTree = "<group>"; };
+		688651431555C95E00C29C7B /* calc_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calc_icon.png; sourceTree = "<group>"; };
+		688651451555C96200C29C7B /* calc_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calc_icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 		6814B8C914AC9A6A00EE1BF7 = {
 			isa = PBXGroup;
 			children = (
-				68EF7D8F154A84AB00945F4B /* calc_1x.png */,
-				68EF7D8D154A847F00945F4B /* calc_2x.png */,
+				688651451555C96200C29C7B /* calc_icon@2x.png */,
+				688651431555C95E00C29C7B /* calc_icon.png */,
 				6814B8DE14AC9A6A00EE1BF7 /* RPNCalculator */,
 				6814B8D714AC9A6A00EE1BF7 /* Frameworks */,
 				6814B8D514AC9A6A00EE1BF7 /* Products */,
@@ -163,8 +163,8 @@
 			files = (
 				6814B8E314AC9A6A00EE1BF7 /* InfoPlist.strings in Resources */,
 				6814B8EC14AC9A6A00EE1BF7 /* MainStoryboard.storyboard in Resources */,
-				68EF7D8E154A847F00945F4B /* calc_2x.png in Resources */,
-				68EF7D90154A84AB00945F4B /* calc_1x.png in Resources */,
+				688651441555C95E00C29C7B /* calc_icon.png in Resources */,
+				688651461555C96200C29C7B /* calc_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
